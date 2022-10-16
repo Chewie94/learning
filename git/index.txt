@@ -1,0 +1,17 @@
+CHANGE ACTIVE GITHUB ACC:
+    git config user.name my_username
+    git config user.email my_email
+    --
+    git config --local credential.helper “”
+    git config --unset credential.helper “osxkeychain”
+
+REVERT TO LAST WORKING COMMIT:
+    git reset --hard <last_working_commit_id>
+    git push --f
+
+REVERT ONE COMMIT:
+    git reset --hard HEAD^
+    git push -f 
+
+PUSH CHANGES FROM ONE BRANCH TO ANOTHER:
+git push <remote> <branch with new changes>:<branch you are pushing to> 

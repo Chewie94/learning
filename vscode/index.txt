@@ -1,0 +1,5 @@
+ENABLE SEARCH IN NODE_MODULES:
+    "search.useIgnoreFiles": false,
+        "search.exclude": {
+            "**/node_modules": false,
+        },

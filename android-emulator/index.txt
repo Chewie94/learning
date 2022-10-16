@@ -1,0 +1,2 @@
+adb shell input keyevent KEYCODE_MENU - trigger android debug menu
+adb reverse tcp:8081 tcp:8081 - fix debug on physical android
