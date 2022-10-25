@@ -1,0 +1,40 @@
+Differences with function declaration:
+
+1. No accessible 'arguments' Array-like object:
+    function func1(a, b, c) {
+    console.log(arguments[0]);
+    // expected output: 1
+
+    console.log(arguments[1]);
+    // expected output: 2
+
+    console.log(arguments[2]);
+    // expected output: 3
+    }
+
+    func1(1, 2, 3);
+
+2. Syntax
+
+3. no own 'this', if there's a call it being taken from outer scope
+
+4. cant be called with new
+var x = 10;
+
+function createFunction1() {
+  const x = 20;
+  return new Function("return x;"); // this `x` refers to global `x`
+}
+
+function createFunction2() {
+  const x = 20;
+  function f() {
+    return x; // this `x` refers to the local `x` above
+  }
+  return f;
+}
+
+const f1 = createFunction1();
+console.log(f1()); // 10
+const f2 = createFunction2();
+console.log(f2()); // 20

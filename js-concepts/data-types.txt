@@ -1,0 +1,8 @@
+Number = 5
+String = 'myStr'
+Boolean = true/false
+null
+undefined
+Object = {name: "myName"}
+Symbol = new Symbol("id")
+const hugeBin = BigInt("0b11111111111111111111111111111111111111111111111111111")

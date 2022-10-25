@@ -1,0 +1,6 @@
+// '==' checks only types and tries to convert to boolean if possible
+// '===' strict, checks type and value
+
+// 0 == false -> true    0 === false -> false
+// 1 == true -> true     1 === true -> false
+// 1 == "1" -> true      1 === '1' -> false

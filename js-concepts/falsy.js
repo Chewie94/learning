@@ -1,0 +1,7 @@
+console.log(false)
+console.log(!!0)
+console.log(!!"")
+console.log(!!undefined)
+console.log(!!null)
+console.log(!!NaN)
+console.log(!!BigInt(0))
