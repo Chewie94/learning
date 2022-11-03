@@ -1,0 +1,14 @@
+- What Happened to “npm run xxx”?
+
+First, we install project dependencies through npm i xxx, such as npm i @vue/cli-service. 
+When npm installs this dependency, it will create vue-cli-service in the node_modules/.bin/ directory as the name of several executable files.
+The .bin directory is not the place to store the npm package. The files in this directory represent soft links.
+Therefore, when using npm run serve to execute vue-cli-service serve, although the vue-cli-service global command is not installed, the 'npm' will find the 'vue-cli-service' executable file in the ./node_modules/.bin file directory 
+and execute it as a script (equivalent to executing ./node_modules/.bin/vue-cli-service serve')
+
+- Where is this soft connection executed?
+
+When we use npm i to install dependencies, npm declares bin/vue-cli-service.js as bin.
+vue-cli-service exists in package-lock.json file
+After reading the configuration, npm will soft link it to the ./node_modules/.bin directory, and npm will automatically add node_modules/.bin to $PATH, 
+so that you can directly run dependent programs as a command, with no need to install it globally.
