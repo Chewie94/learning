@@ -1,0 +1,7 @@
+https://nextjs.org/learn/foundations/how-nextjs-works/code-splitting
+Next.js has built-in support for code splitting. Each file inside your pages/ directory will be automatically code split into its own JavaScript bundle during the build step.
+
+Further:
+Any code shared between pages is also split into another bundle to avoid re-downloading the same code on further navigation.
+After the initial page load, Next.js can start pre-loading the code of other pages users are likely to navigate to.
+Dynamic imports are another way to manually split what code is initially loaded.
