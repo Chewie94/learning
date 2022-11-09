@@ -1,0 +1,2 @@
+storage - https://github.com/oblador/react-native-keychain, https://blog.logrocket.com/storing-credentials-using-react-native-keychain/
+images - https://github.com/DylanVann/react-native-fast-image

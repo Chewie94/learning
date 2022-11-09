@@ -1,0 +1,1 @@
+multilanguage support: https://github.com/i18next/react-i18next

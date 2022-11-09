@@ -1,0 +1,7 @@
+ React.StrictMode - enabled only in dev env
+ 1. Detect unintended side effects - run everything twice
+ 2. Detect mount/unmount side effects - helps with cleaning effects, like for example forgetting to remove listener on unmount
+ 3. Detect deprecated class lifecycle methods
+ 4. Detect string refs
+ 5. Detect findDOMNode usage
+ 6. Detect legacy context

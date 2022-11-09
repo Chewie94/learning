@@ -1,0 +1,11 @@
+/* 
+    vw & vh - Relative to 1% of the viewport (percentages of screen size)
+    vmin & vmax - Relative to 1% of viewport's* (smaller/larger) dimension
+    vi & vb - 1% of the size of the viewport in the (inline/block) direction, added for easier support of non default writing-mode
+    em - Relative to the font-size of the element
+    rem - Relative to font-size of the root element
+
+    Modifiers: Small(svh), Large(lvh), Dynamic(dvh) - depends on browser, takes into consideration url bar.
+    For example while user scrolls website on mobile phone url bar can appear/dissapear and it would affect size of element with modifier.
+    For perfect scaling worth using dynamic - it takes value between Small and Large.
+*/

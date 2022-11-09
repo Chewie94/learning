@@ -1,0 +1,1 @@
+for responsive email templates: https://github.com/mjmlio/mjml
