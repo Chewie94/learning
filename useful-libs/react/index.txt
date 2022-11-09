@@ -1,0 +1,34 @@
+multilanguage support: https://github.com/i18next/react-i18next
+css 1: https://styled-components.com/docs/advanced
+css 2: https://tailwindcss.com/docs/theme
+form validation - https://github.com/react-hook-form/react-hook-form + https://github.com/jquense/yup
+http requests - https://github.com/axios/axios
+graphql client - https://github.com/FormidableLabs/urql
+data fetching react hook (caching) - https://github.com/vercel/swr
+state management: 
+    jotai vs zustand - https://github.com/pmndrs/jotai/issues/13
+    https://github.com/pmndrs/jotai
+    https://github.com/pmndrs/zustand
+    https://redux-toolkit.js.org/
+copy to clipboard - https://github.com/nkbt/react-copy-to-clipboard
+html5 drag-drop zone - https://github.com/react-dropzone/react-dropzone
+input number - https://github.com/react-component/input-number
+WYSIWYG editor - https://tiptap.dev/introduction
+autosize textarea - http://www.jacklmoore.com/autosize/
+skeletons - https://github.com/danilowoz/react-content-loader
+react menu - https://szhsin.github.io/react-menu/
+react modal - https://github.com/reactjs/react-modal
+toasts - https://react-hot-toast.com/
+react-paginate - https://github.com/AdeleD/react-paginate
+react-select - https://react-select.com/home
+table - https://github.com/TanStack/table
+material design icons - https://www.npmjs.com/package/@mdi/js
+carousel - https://www.npmjs.com/package/react-multi-carousel
+ready to use react components:
+    https://mantine.dev/
+    https://v1.chakra-ui.com/docs/components/overview
+    https://github.com/mui/material-ui
+headless (without styles):
+    https://github.com/radix-ui/primitives
+    https://www.radix-ui.com/docs/primitives/components/tabs
+routing - https://reactrouter.com/en/main

@@ -1,0 +1,23 @@
+multilanguage support: https://github.com/i18next/react-i18next
+storage - https://github.com/oblador/react-native-keychain, https://blog.logrocket.com/storing-credentials-using-react-native-keychain/
+images - https://github.com/DylanVann/react-native-fast-image
+form validation - https://github.com/react-hook-form/react-hook-form + https://github.com/jquense/yup
+http requests - https://github.com/axios/axios
+graphql client - https://github.com/FormidableLabs/urql
+data fetching react hook (caching) - https://github.com/vercel/swr
+state management: 
+    jotai vs zustand - https://github.com/pmndrs/jotai/issues/13
+    https://github.com/pmndrs/jotai
+    https://github.com/pmndrs/zustand
+    https://redux-toolkit.js.org/
+skeletons - https://github.com/danilowoz/react-content-loader
+react-native-modal - https://github.com/react-native-modal/react-native-modal
+dropdown like web - https://github.com/MobileReality/react-native-select-pro
+material design icons - https://www.npmjs.com/package/@mdi/js
+Adobe after effects animation parser - https://airbnb.io/lottie/#/README
+react-native-maps - https://github.com/react-native-maps/react-native-maps
+ready to use rn components:
+    https://reactnativepaper.com/
+    https://reactnativeelements.com/docs/components/bottomsheet
+    https://akveo.github.io/react-native-ui-kitten/docs/components/list/overview#list
+react-navigation - https://reactnavigation.org/docs/getting-started/
