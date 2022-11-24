@@ -1,0 +1,52 @@
+* { 
+    display: grid;
+    /* grid-template */
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-template: repeat(2, 100px) / repeat(2, 1fr);
+    /* gap */
+    row-gap: 20px;
+    column-gap: 10px;
+    gap: 20px 10px;
+    /* grid-column */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: 1 / 4;
+    /* grid-row */
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-row: 2 / 5;
+    /* controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid */
+    grid-auto-flow: row column + dense;
+    /* implicit grid */
+    grid-auto-columns: minmax(200px, auto);
+    grid-auto-rows: minmax(60px, auto);
+    /* aligning grid items - start | end | stretch | center */
+    justify-items: start;
+    align-items: start;
+    /* single aligning - start | end | stretch | center */
+    justify-self: start;
+    align-self: start;
+}
+
+/* 
+    auto-fill: creates as many tracks as fit into the grid container without causing the grid to overflow it
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        grid-gap: 20px;
+    }
+
+    auto-fit: behaves the same way as auto-fill, except that after grid item placement it will only create as many tracks as needed and any empty repeated track collapses.
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100px);
+        grid-gap: 20px;
+    }
+*/
+
+/* 
+    min-content
+    max-content
+    minmax(100px, 1fr)
+*/
