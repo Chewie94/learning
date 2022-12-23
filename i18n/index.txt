@@ -1,0 +1,2 @@
+React i18n break lines in JSON String: https://stackoverflow.com/questions/45856051/react-i18n-break-lines-in-json-string
+You can do it with css white-space: pre-line; & \n in the translation text.

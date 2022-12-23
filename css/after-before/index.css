@@ -1,0 +1,18 @@
+.MyContainer {
+    position: relative;
+    margin: 40px 0;
+    height: 40px;
+    width: 200px;
+    background: #eee;
+}
+
+.MyContainer:after {
+    content: " ";
+    display: block;
+    background: #c00;
+    height: 29px;
+    width: 100%;
+
+    position: absolute;
+    bottom: -29px;
+}

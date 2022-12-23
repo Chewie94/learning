@@ -1,0 +1,7 @@
+Error: ERESOLVE unable to resolve dependency tree
+
+Resolve: npm install --save --legacy-peer-deps
+
+This is a combination of two commands:
+a. Set legacy-peer-deps true in npm config: npm config set legacy-peer-deps true
+b. Now install packages using: npm install

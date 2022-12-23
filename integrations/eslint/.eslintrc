@@ -1,0 +1,15 @@
+// 1. npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+// 2. touch .eslintrc
+// 3. in .eslintrc:
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {}
+}
+// 4. add scripts to package.json:
+// "lint": "npx eslint ./src",
+// "format": "npx eslint ./src --fix"

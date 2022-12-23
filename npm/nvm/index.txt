@@ -10,5 +10,8 @@ nvm install 6.9.2
 // set default version of node
 nvm alias default 6.9.2
 
+// use default version
+nvm use default
+
 // switch version of node
 nvm use 6.9.1
