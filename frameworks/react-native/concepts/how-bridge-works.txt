@@ -1,0 +1,21 @@
+https://dev.to/wjimmycook/how-the-react-native-bridge-works-and-how-it-will-change-in-the-near-future-4ekc
+https://www.youtube.com/watch?v=TU_kTuz2i9Y
+https://reactnative.dev/docs/next/the-new-architecture/why
+
+There's two pieces of code: Native code, JS code.
+To communicate there're using RN bridge
+When user opens an app this is happening:
+1. OS creates Main Thread (UI Thread) and assigns it to the app
+2. Main Thread creates Shadow Thread (Tree) and JS Thread.
+3. Shadow Thread job is to calculate layouts defined in JS Thread and send this info further to Main Thread
+
+New RN Architecture:
+JSI removes the need for a bridge between Native(Java/ObjC) and Javascript code. 
+It also removes the requirement to serialize/deserialize all the information as JSON for communication between the two worlds. 
+JSI is opening doors to new possibilities by bringing closes the javascript and the native worlds.
+JS side and Native side can finally talk to each other!
+
+Shadow Tree is written in C++, it'll provide the ability to write synchronous code
+
+Scheme:
+JS <-> JSI <-> JS Engine (JSCore, Hermes, Chrome(v8) for debugging)

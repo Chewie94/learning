@@ -1,6 +1,5 @@
+COMMON:
 multilanguage support: https://github.com/i18next/react-i18next
-storage - https://github.com/oblador/react-native-keychain, https://blog.logrocket.com/storing-credentials-using-react-native-keychain/
-images - https://github.com/DylanVann/react-native-fast-image
 form validation - https://github.com/react-hook-form/react-hook-form + https://github.com/jquense/yup
 http requests - https://github.com/axios/axios
 graphql client - https://github.com/FormidableLabs/urql
@@ -11,13 +10,22 @@ state management:
     https://github.com/pmndrs/zustand
     https://redux-toolkit.js.org/
 skeletons - https://github.com/danilowoz/react-content-loader
-react-native-modal - https://github.com/react-native-modal/react-native-modal
-dropdown like web - https://github.com/MobileReality/react-native-select-pro
 material design icons - https://www.npmjs.com/package/@mdi/js
 Adobe after effects animation parser - https://airbnb.io/lottie/#/README
+2d graphics - https://shopify.engineering/react-native-skia-shopify https://skia.org/
+
+REACT:
+
+REACT NATIVE:
+storage - https://github.com/oblador/react-native-keychain, https://blog.logrocket.com/storing-credentials-using-react-native-keychain/
+images - https://github.com/DylanVann/react-native-fast-image
+react-native-modal - https://github.com/react-native-modal/react-native-modal
+dropdown like web - https://github.com/MobileReality/react-native-select-pro
 react-native-maps - https://github.com/react-native-maps/react-native-maps
+react-navigation - https://reactnavigation.org/docs/getting-started/
+fast flatlist - https://shopify.github.io/flash-list/?shpxid=903691b0-5FF3-4B77-2A37-84F7BFFC2656
+performance measuring tool - https://shopify.engineering/measuring-react-native-rendering-times https://github.com/Shopify/react-native-performance
 ready to use rn components:
     https://reactnativepaper.com/
     https://reactnativeelements.com/docs/components/bottomsheet
     https://akveo.github.io/react-native-ui-kitten/docs/components/list/overview#list
-react-navigation - https://reactnavigation.org/docs/getting-started/
