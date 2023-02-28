@@ -2,6 +2,7 @@ COMMON:
 multilanguage support: https://github.com/i18next/react-i18next
 form validation - https://github.com/react-hook-form/react-hook-form + https://github.com/jquense/yup
 http requests - https://github.com/axios/axios
+Ruby version manager - https://github.com/rbenv/rbenv
 graphql client - https://github.com/FormidableLabs/urql
 data fetching react hook (caching) - https://github.com/vercel/swr
 state management: 
@@ -17,6 +18,8 @@ Adobe after effects animation parser - https://airbnb.io/lottie/#/README
 REACT:
 
 REACT NATIVE:
+keeps deps fresh - https://github.com/antfu/taze
+manage assets - https://www.npmjs.com/package/react-native-asset
 storage - https://github.com/oblador/react-native-keychain, https://blog.logrocket.com/storing-credentials-using-react-native-keychain/
 images - https://github.com/DylanVann/react-native-fast-image
 react-native-modal - https://github.com/react-native-modal/react-native-modal
@@ -24,6 +27,7 @@ dropdown like web - https://github.com/MobileReality/react-native-select-pro
 react-native-maps - https://github.com/react-native-maps/react-native-maps
 react-navigation - https://reactnavigation.org/docs/getting-started/
 fast flatlist - https://shopify.github.io/flash-list/?shpxid=903691b0-5FF3-4B77-2A37-84F7BFFC2656
+install custom fonts - https://callstack.github.io/react-native-paper/fonts.html
 performance measuring tool - https://shopify.engineering/measuring-react-native-rendering-times https://github.com/Shopify/react-native-performance
 ready to use rn components:
     https://reactnativepaper.com/

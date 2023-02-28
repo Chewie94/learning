@@ -1,0 +1,4 @@
+to enable debugging in rn >= 0.70
+
+update in Podfile:
+:hermes_enabled => false

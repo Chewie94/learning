@@ -32,3 +32,5 @@ headless (without styles):
     https://github.com/radix-ui/primitives
     https://www.radix-ui.com/docs/primitives/components/tabs
 routing - https://reactrouter.com/en/main
+WAI-ARIA compliant React autocomplete/combobox or select dropdown components/hooks - https://www.downshift-js.com/
+TypeScript-first schema validation with static type inference - https://zod.dev/

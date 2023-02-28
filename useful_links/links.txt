@@ -1,0 +1,1 @@
+https://dummyjson.com/docs/auth - sample api with auth
