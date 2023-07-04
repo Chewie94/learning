@@ -1,0 +1,8 @@
+Two core elements:
+1. JS Engine - V8 (C++), made by Google, single threaded
+2. Libuv (C) - 4 threads, responsible for:
+    1. Crossplatform IO - work with netfork, filesystem.
+    2. Event Loop
+
+Node js libraries could be multithreaded due to Libuv!
+From node.js v11.7.0 ability to control threads was added via module worker_threads

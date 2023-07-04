@@ -1,0 +1,16 @@
+0. DOM -> CSSOM -> Render Tree
+1. Style calculation - apply selectors to html elements.
+2. Layout - based on info from "Style Calculation", sizes and positions of elements are set by browser. Result is a "Layout tree" which contains info where each element is position, visible it or not, etc.
+3. Paint - paint pixels based on Layout.
+4. Compositing - work with layers, z-index, gpu, etc.
+
+Clicking on button to open modal for example would rerun the whole process from step 0. Render is costly operation.
+Render can be triggered by:
+1. window resize
+2. font change
+3. content change
+4. add/delete classes, styles
+5. DOM manipulation
+6. change of orientation, vertical/horizontal
+7. change of sizes/positions
+8. calculation of sizes/positions

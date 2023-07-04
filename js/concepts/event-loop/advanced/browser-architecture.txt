@@ -1,0 +1,13 @@
+1. UI
+2. Browser Engine - middleware between UI and render mechanism
+3. Render Engine:
+    1. Networking
+    2. JS interpreter/engine - V8 (Chrome), SpiderMonkey (Firefox), JSCore (Safari), Edge (Chakra).
+    Purpose:
+        1. Heap & call stack
+        2. memory managment - garbage collector, etc.
+        3. JS compilation into machine/binary code
+        4. Optimization - cache, hidden classes, etc
+    3. UI backend
+    Famous engines: Webkit (Chrome), Gecko (Firefox)
+4. Data Persistence - local storage, session storage, file system, cookies, etc.

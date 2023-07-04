@@ -1,0 +1,38 @@
+Avaible Variants:
+1. CSR - Client side rendering
+2. SSR - Server side rendering
+3. RSC - React server components
+4. SSG - Static site generation
+5. ISR - Incremental static regeneration
+
+CSR (Client Side Rendering):
+1. Typical for SPA
+2. All rendering happens on the client side (browser)
+3. From client requests are made to get dynamic data
+4. Crawlers, indexation problems
+5. Server returns empty node
+
+SSR (Server Side Rendering):
+1. Server renders HTML page on first client request
+2. On client in HTML JS being injected (hydration)
+3. Hydration - During this JavaScript takeover, Next.js ensures that the initial HTML content and the JavaScript code work together seamlessly. 
+The JavaScript code "hydrates" the server-rendered HTML, which means it attaches event handlers to interactive elements, updates the UI based on user actions, and establishes client-side interactivity.
+4. Good SEO - crawlers indexation is working properly
+
+RSC (React Server Components):
+1. Similar to SSR, but provides a way to render content on server and stream it on a client without further hydration
+Streaming means that data being provided by small chunks, like YouTube video, ChatGPT answer, etc
+No hydration means there won't be any need to push JS to client like in SSR
+2. Streams HTML static not only during first request but in further navigation
+3. Crawlers indexation is working properly
+4. New Next.js approach used with app router directory
+
+SSG (Static Site Generation):
+1. HTML page being generated on server
+2. Render happens during build not runtime
+3. Every static page doesn't require further hydration
+4. In Next.js requires additional setup: "getStaticParams" for app router api, "getStaticPaths" for page router api
+
+ISR (Incremental Static Regeneration):
+1. Best from two worlds: a combo of SSR & SSG, allows rerender static pages based on some trigger.
+2. Trigger could be some event or timer.
