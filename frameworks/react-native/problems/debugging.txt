@@ -2,3 +2,9 @@ to enable debugging in rn >= 0.70
 
 update in Podfile:
 :hermes_enabled => false
+
+clear cache
+sudo rm -rf ~/.cocoapods/repos
+
+rmv install problem:
+rvm reinstall 2.7.5 --with-openssl-dir=$(brew --prefix openssl) --with-readline-dir=$(brew --prefix readline) --with-libyaml-dir=$(brew --prefix libyaml) --disable-dtrace --disable-docs

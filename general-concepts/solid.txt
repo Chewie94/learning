@@ -1,0 +1,9 @@
+SOLID in React:
+https://www.youtube.com/watch?v=MSq_DCRxOxw
+https://github.com/ipenywis/react-solid/tree/main/src/principles
+
+1. Single Responsibility Principle - one task/logic per component, divide to smaller components.
+2. Open-Closed Principle - insert children react node into component instead of relying on conditional render.
+3 Liskov Substitution Principle - SearchInput custom component should still be able to receive props that can be passed to children default html input. We're expanding functionality not changing it.
+4. Interface Segregation Principle - divide big interfaces into smaller, apply proper interface to component, no unused props.
+5. Dependency Inversion Principle - try to make components reusable, more generic by extracting changable logic pieces like onClick events, etc.

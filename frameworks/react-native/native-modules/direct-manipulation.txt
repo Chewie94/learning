@@ -1,0 +1,5 @@
+https://reactnative.dev/docs/direct-manipulation
+
+Direct manipulation will not be a tool that you reach for frequently. 
+You will typically only be using it for creating continuous animations to avoid the overhead of rendering the component hierarchy and reconciling many views. 
+setNativeProps is imperative and stores state in the native layer (DOM, UIView, etc.) and not within your React components, which makes your code more difficult to reason about.

@@ -1,0 +1,3 @@
+https://reactnative.dev/docs/interactionmanager
+
+use for costly animations, heavy code
